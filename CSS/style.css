@@ -1,0 +1,290 @@
+/* CSS Document */
+body{
+	padding:20px 0 0 0;
+	margin:0;
+	font-family:Arial, Helvetica, sans-serif;
+	background:url(../images/Bg.jpg) repeat-x 0 0 #fff;
+	color:#26272a;
+	}
+	
+div, h1, h2, img, p, ul, form, h3{
+	padding:0;
+	margin:0;
+	}
+.spacer{
+	clear:both;
+	font-size:0;
+	line-height:0;
+	}
+a{
+	outline:none;
+	}
+	
+img{
+	display: block;
+	font-size: 0;
+	line-height: -1px;
+	}
+/*--------------------main part start-------------------*/
+#main{
+	width:980px;	
+	margin:0 auto;
+	box-shadow:0px 6px 8px #2e2828;
+	}
+	
+/*---------------navigation part start------------------*/
+#navi{
+	height:60px;
+	width:980px;
+	background-color:#481a24;
+	background:url(../images/Navi_bg.jpg) repeat-x 0 0 #fff;
+	font-size:18px;
+	}
+#navi01{
+	padding:15px 0px 0px 320px;	
+}
+#navi ul{
+	list-style-type:none;
+	padding:0 0 0 0;	
+	}
+	
+#navi ul li{
+	float:left;
+	display:block;
+}
+
+#navi ul li a{
+	float:left;
+	display:block;
+	background-color:#481a24;
+	text-decoration:none;
+	color:#f7b43f;
+	padding:0 12px;
+	font:bold 18px/32px "黑体", Arial, Helvetica, sans-serif;
+	}
+	
+#navi ul li a:hover{
+	color:#fff;
+	}
+	
+/*--------------------flash part start----------*/
+.wrapper{
+	height:467px;
+	
+}
+.clearfix:after{content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+.clearfix{zoom:1;}
+ul,li{list-style:none;}
+img{border:0;}
+.wrapper{height:467px;position:relative;}
+/* focus */
+#focus{width:980px;height:467px;overflow:hidden;position:relative;}
+#focus ul{height:980px;position:absolute;}
+#focus ul li{float:left;width:980px;height:467px;overflow:hidden;position:relative;background:#000;}
+#focus ul li div{position:absolute;overflow:hidden;}
+#focus .btnBg{position:absolute;width:980px;height:20px;left:0;bottom:0;background:#000;}
+#focus .btn{position:absolute;width:780px;height:10px;padding:10px 25px;right:0;bottom:0;text-align:right;}
+#focus .btn span{display:inline-block;_display:inline;_zoom:1;width:25px;height:10px;_font-size:0;margin-left:5px;cursor:pointer;background:#fff;}
+#focus .btn span.on{background:#fff;}
+#focus .preNext{width:45px;height:100px;position:absolute;top:90px;background:url(img/sprite.png) no-repeat 0 0;cursor:pointer;}
+#focus .pre{left:0;}
+#focus .next{right:0;background-position:right top;}
+	
+/*---------------body part start-------------*/
+#body{
+	background-color:#e6e6e6;
+}
+	
+/*----------------recommendation part start-------------*/
+
+.steps-1 {
+  float: left;
+  width: 40%;
+  text-align: center;
+  margin:auto;
+  position: relative;
+}
+.steps-2 {
+  float: left;
+  width: 20%;
+  text-align: center;
+  position: relative;
+}
+.TJpic {
+	margin:auto;
+}
+.steps-3 {
+  float: right;
+  width: 40%;
+  text-align: center;
+  position: relative;
+}
+.steps h5 {
+  color: #ed1f2c;
+  font-size: 20px;
+  padding: 1em 0 0;
+  margin:auto;
+  font-family: '华文新魏', serif;
+}
+.steps {
+	padding-top:30px;
+}
+.divider {
+	padding-top:50px;
+	margin:auto;
+}
+.titleBar {
+	padding-top:30px;
+	margin:auto;
+}
+.titleBar00 {
+	padding-top:0px;
+	margin:auto;
+}
+/*----------------Lesson part start-------------*/
+h1{
+	font-size:28px;
+	font-family:"华文新魏","黑体";
+	color:#ed1f2c;
+	padding-top:20px;
+	padding-bottom:20px;
+	margin-left:20px;
+}
+.lessonPart {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding-left:34px;
+  position: relative;
+}
+
+/*----------------Article part start-------------*/
+#Article a{
+	text-decoration:none;
+	color:#000;
+	padding:0 0px;
+	font:bold 14px/22px "微软雅黑", Arial, Helvetica, sans-serif;
+	}
+#Article a:hover{
+	color:#3a47fb;
+}
+.Iimg{
+	float:left;
+	margin-right:12px;
+	margin-top:3px;
+}
+#left{
+	width:300px;
+	float:left;
+	padding-left:30px;
+	padding-top:30px;
+}
+.left01{
+	border:0px;
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #E1E1E1;
+}
+#TB01{
+	height:52px;
+	background:url(../images/Table01.jpg) no-repeat 0 0;
+	text-align: center;
+	margin-top:10px;
+	font-size:24px;
+	font-family:"华文新魏","黑体";
+	color:#481a24;	
+}
+#right{
+	float:right;
+	padding-right:30px;
+	padding-top:30px;
+}
+#TB02{
+	height:52px;
+	background:url(../images/Table02.jpg) no-repeat 0 0;
+	text-align: center;
+	margin-top:10px;
+	font-size:24px;
+	font-family:"华文新魏","黑体";
+	color:#481a24;	
+}
+#TB03{
+	height:52px;
+	background:url(../images/Table03.jpg) no-repeat 0 0;
+	text-align: center;
+	margin-top:10px;
+	font-size:24px;
+	font-family:"华文新魏","黑体";
+	color:#481a24;	
+}
+#TB04{
+	padding-top:50px;
+}
+/*----------------Student part start-------------*/
+.box{ width:980px; margin:0 auto;}
+.bcon{ width:640px; border:2px solid #F00; margin:24px auto;}
+.bcon h1{ border-bottom:1px solid #eee; padding:0 10px;}
+.bcon h1 b{ font:bold 24px/40px '宋体'; border-top:4px solid #F00; padding:0 8px; margin-top:-1px; display:inline-block; float:center;}
+
+.list_lh{ height:400px; overflow:hidden;}
+.list_lh li{ padding:8px;}
+.list_lh li.lieven{ background:#cecece;}
+.list_lh li p{ height:30px; line-height:24px;}
+.list_lh li p.a_blue{ height:90px; line-height:24px; margin:auto}
+.list_lh li p a{ float:left;}
+.list_lh li p a.btn_lh{ background:#28BD19; height:17px; line-height:17px; color:#fff; padding:0 5px; margin-top:4px; display:inline-block; float:right;}
+
+/*----------------Class part start-------------*/
+#Class {
+	padding:10px 0px 50px 5px;
+}
+#owl-demo .item {
+	padding-top:30px;
+	position: relative;
+}
+.img-responsive,
+.item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+#example1 a{
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+}
+/*----------------footer part start-------------*/
+#bigfooter{
+
+	color:#FFF;
+	}
+#footer{
+	background-color:#481a24;
+	padding:15px 0 0 0;
+	height:24px;
+	margin:0 auto;
+	font-size:12px;
+	}
+#contact p{
+	color:#FFF;
+	padding-top:15px;
+}
+#YL{
+	height:200px;
+	background-color:#4e1d28;
+}
+	
+	
+.ARC{
+	text-indent:2em;
+	margin-left:100px;
+	margin-right:100px;
+	line-height:200%;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+.ARC h1{
+	font-size:28px;
+}
